@@ -1,4 +1,5 @@
-﻿using Npgsql;
+﻿using Mini_KTK.Model;
+using Npgsql;
 using NpgsqlTypes;
 using System;
 using System.Collections.Generic;
@@ -25,7 +26,6 @@ namespace Mini_KTK
         public MainWindow()
         {
             InitializeComponent();
-
             try
             {
                 ApplicationDbContext.Connect("10.14.206.28", "5432", "user9", "&6hM#c3h", "CollegeNews");

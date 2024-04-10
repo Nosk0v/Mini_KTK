@@ -119,6 +119,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Event.cs" />
+    <Compile Include="Model\EventUser.cs" />
+    <Compile Include="Model\News.cs" />
+    <Compile Include="Model\Role.cs" />
+    <Compile Include="Model\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
