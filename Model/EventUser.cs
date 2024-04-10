@@ -13,7 +13,6 @@ namespace Mini_KTK.Model
         public EventUser(int userId, int eventId) 
         {
             UserId = userId;
-
             EventId = eventId;
         }
     }

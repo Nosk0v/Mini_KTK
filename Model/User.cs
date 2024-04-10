@@ -8,19 +8,12 @@ namespace Mini_KTK.Model
 {
     public class User
     {
-        public int Id { get; }
+        public int Id { get; set; }
+        public string UserName { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Patronymic { get; set; }
         public string Password { get; set; }
-        public string RuleId { get; set; }
-        public User(int id, string name, string surname, string patronymic, string password, string ruleId)
-        {
-            Name = name;
-            Surname = surname;
-            Patronymic = patronymic;
-            Password = password;
-            RuleId = ruleId;
-        }
+        public int RoleId { get; set; }
     }
 }

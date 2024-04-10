@@ -5,10 +5,28 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Mini_KTK.View"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="Registration">
+      d:DesignHeight="500" d:DesignWidth="400" 
+      Title="Registration" Background="White" >
 
     <Grid>
-        
+        <StackPanel Margin="20">
+            <TextBlock FontSize="30" HorizontalAlignment="Center" Margin="0 5" FontWeight="Bold">Регистрация</TextBlock>
+            
+            <Label Content="Логин" Foreground="#484848"></Label>
+            <TextBox Name="tbLogin" Margin="0 5" FontSize="16"></TextBox>
+
+            <Label Content="Фамилия" Foreground="#484848"></Label>
+            <TextBox Name="tbSurname" Margin="0 5" FontSize="16"></TextBox>
+
+            <Label Content="Имя" Foreground="#484848"></Label>
+            <TextBox Name="tbName" Margin="0 5" FontSize="16"></TextBox>
+
+            <Label Content="Отчество" Foreground="#484848"></Label>
+            <TextBox Name="tbPatronymic" Margin="0 5" FontSize="16"></TextBox>
+
+            <Label Content="Пароль" Foreground="#484848" Margin="0 10 0 0"></Label>
+            <PasswordBox Name="tbPassword" Margin="0 5" FontSize="16"></PasswordBox>
+            <Button Margin="10 20 10 10" Padding="6" Click="onSingIn" Content="Зарегистрироваться" Background="Purple" Foreground="White"></Button>
+        </StackPanel>
     </Grid>
 </Page>
